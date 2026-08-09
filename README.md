@@ -55,10 +55,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarkNwilliam&layout=compact&hide_border=true&bg_color=0d1117&title_color=50fa7b&text_color=f8f8f2&border_color=30363d" alt="Top languages" height="170" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MarkNwilliam&hide_border=true&background=0d1117&fire=ff6bcb&ring=8be9fd&currStreakLabel=ffb86c&sideLabels=f8f8f2&currStreakNum=50fa7b&sideNums=f8f8f2&dates=8b949e" alt="GitHub streak" />
-</p>
-
 <h2 align="center">🐍 Watch the Snake Eat My Commits</h2>
 
 <p align="center">
