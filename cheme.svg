@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="100%" height="auto" role="img" aria-label="Chemical and Process Engineering banner">
+  <defs>
+    <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#143a2b"/>
+    </linearGradient>
+    <linearGradient id="flaskFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#50fa7b"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#cbg)"/>
+
+  <g opacity="0.5">
+    <circle cx="60" cy="60" r="30" fill="#50fa7b" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" values="0 0;8 -10;0 0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="200" r="40" fill="#8be9fd" opacity="0.10">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-10 8;0 0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Distillation column -->
+  <g transform="translate(120,80)">
+    <rect x="0" y="10" width="60" height="130" fill="none" stroke="#50fa7b" stroke-width="3"/>
+    <g stroke="#50fa7b" stroke-width="2" opacity="0.6">
+      <line x1="0" y1="42" x2="60" y2="42"/>
+      <line x1="0" y1="74" x2="60" y2="74"/>
+      <line x1="0" y1="106" x2="60" y2="106"/>
+    </g>
+    <line x1="30" y1="140" x2="30" y2="158" stroke="#8be9fd" stroke-width="3"/>
+    <line x1="30" y1="158" x2="8" y2="158" stroke="#8be9fd" stroke-width="3"/>
+    <text x="30" y="175" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#50fa7b">Distillation</text>
+    <circle cx="30" cy="10" r="6" fill="#8be9fd" opacity="0.6">
+      <animate attributeName="cy" values="10;6;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Erlenmeyer flask -->
+  <g transform="translate(260,70)">
+    <polygon points="35,0 55,0 78,120 8,120" fill="none" stroke="#50fa7b" stroke-width="3"/>
+    <polygon points="22,88 68,88 78,120 8,120" fill="url(#flaskFill)" stroke="none">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="1.6s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="35,0 55,0 78,120 8,120" fill="none" stroke="#50fa7b" stroke-width="3"/>
+    <g fill="#8be9fd" opacity="0.7">
+      <circle cx="40" cy="105" r="4">
+        <animate attributeName="cy" values="105;92;105" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="50" cy="108" r="3">
+        <animate attributeName="cy" values="108;96;108" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="42" y="140" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#50fa7b">Reactor</text>
+  </g>
+
+  <!-- Molecule -->
+  <g transform="translate(430,110)" stroke="#8be9fd" stroke-width="3" fill="#0d1117">
+    <circle cx="0" cy="0" r="7"/>
+    <circle cx="34" cy="-24" r="7"/>
+    <circle cx="34" cy="24" r="7"/>
+    <circle cx="68" cy="0" r="7"/>
+    <line x1="7" y1="0" x2="27" y2="-18"/>
+    <line x1="7" y1="0" x2="27" y2="18"/>
+    <line x1="41" y1="-18" x2="61" y2="-6"/>
+    <line x1="41" y1="18" x2="61" y2="6"/>
+  </g>
+  <text x="530" y="140" font-family="'Courier New', monospace" font-size="22" fill="#8be9fd" opacity="0.85">C₂H₅OH · H₂O · N₂</text>
+
+  <!-- Title -->
+  <text x="530" y="195" text-anchor="middle" font-family="Segoe UI, Arial" font-size="34" font-weight="800" fill="url(#txt)">Chemical &amp; Process Engineering</text>
+  <text x="530" y="225" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" fill="#c9d1d9" opacity="0.9">Process design · P&amp;IDs · Pharma water systems · Unit operations</text>
+</svg>
