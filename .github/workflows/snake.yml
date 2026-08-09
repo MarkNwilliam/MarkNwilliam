@@ -1,0 +1,31 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate the snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: MarkNwilliam
+          outputs: |
+            snake.svg?color_snake=#4EC9B0&color_dots=#0d1117,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Commit snake.svg
+        run: |
+          git config user.name "Nkugwa Mark William"
+          git config user.email "marknwilliam@users.noreply.github.com"
+          git add snake.svg
+          git commit -m "chore: update contribution snake" || echo "no changes to commit"
+          git push
