@@ -66,6 +66,7 @@
 | [🖥️ cars-dealership-capstone](https://github.com/MarkNwilliam/cars-dealership-capstone) | IBM Full Stack Developer Capstone — Best Cars Dealership | JavaScript |
 | [💠 secondchance-backend](https://github.com/MarkNwilliam/secondchance-backend) | REST API: give away &amp; recycle household items (Node/Express/MongoDB) | JavaScript |
 | [📱 mobile-shop-app](https://github.com/MarkNwilliam/mobile-shop-app) | ShopEasy — React Native shopping app (Expo + DummyJSON) | JavaScript |
+| [⚗️ chemical-reactor-pid](https://github.com/MarkNwilliam/chemical-reactor-pid) | Animated CSTR P&amp;ID + reactor design calcs + interactive simulation | Python · SVG |
 
 <p align="center">
   <b>More:</b>
@@ -113,6 +114,23 @@
   </a>
 </p>
 
+<h3 align="center">⚗️ Jacketed CSTR — Reactor P&amp;ID &amp; Design</h3>
+
+<p align="center">
+  <a href="https://github.com/MarkNwilliam/chemical-reactor-pid">
+    <img src="https://img.shields.io/badge/Repo-chemical--reactor--pid-6a1b9a?style=for-the-badge&logo=github" alt="Reactor PID repo"/>
+    <img src="https://img.shields.io/badge/Interactive%20Sim-Click%20to%20Run-50fa7b?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive sim"/>
+  </a>
+  <br/>
+  <a href="https://github.com/MarkNwilliam/chemical-reactor-pid">
+    <img src="https://raw.githubusercontent.com/MarkNwilliam/chemical-reactor-pid/main/reactor-pid-preview.png" alt="Jacketed CSTR Reactor P&amp;ID" width="78%" />
+  </a>
+  <br/>
+  <a href="https://marknwilliam.github.io/chemical-reactor-pid/cstr_sim.html">
+    <img src="https://img.shields.io/badge/Run%20the%20interactive%20CSTR%20simulation-here!-0b57d0?style=for-the-badge" alt="Interactive CSTR sim"/>
+  </a>
+</p>
+
 ---
 
 <h2 align="center">🎓 Certifications</h2>
@@ -132,9 +150,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MarkNwilliam/certificates/blob/main/ALX/17-short-specializations-certificate-mark-nkugwa.png"><img src="https://raw.githubusercontent.com/MarkNwilliam/certificates/main/ALX/17-short-specializations-certificate-mark-nkugwa.png" alt="ALX specializations" width="32%" /></a>
-  <a href="https://github.com/MarkNwilliam/certificates/blob/main/IBM/agritech-IBM-Cloud.png"><img src="https://raw.githubusercontent.com/MarkNwilliam/certificates/main/IBM/agritech-IBM-Cloud.png" alt="IBM Cloud credential" width="32%" /></a>
-  <a href="https://github.com/MarkNwilliam/certificates/blob/main/IBM/watsonx-IBM-Cloud.png"><img src="https://raw.githubusercontent.com/MarkNwilliam/certificates/main/IBM/watsonx-IBM-Cloud.png" alt="IBM watsonx credential" width="32%" /></a>
+  <a href="https://github.com/MarkNwilliam/certificates/blob/main/IBM/IBM-Backend-Development-Professional-Certificate.png"><img src="https://raw.githubusercontent.com/MarkNwilliam/certificates/main/IBM/IBM-Backend-Development-Professional-Certificate.png" alt="IBM Backend Professional Certificate" width="32%" /></a>
+  <a href="https://github.com/MarkNwilliam/certificates/blob/main/ALX/ALX-Software-Engineering-Certificate.png"><img src="https://raw.githubusercontent.com/MarkNwilliam/certificates/main/ALX/ALX-Software-Engineering-Certificate.png" alt="ALX Software Engineering Certificate" width="32%" /></a>
+  <a href="https://github.com/MarkNwilliam/certificates/blob/main/Other/Makerere-University-Solar-Biogas-Certificate.png"><img src="https://raw.githubusercontent.com/MarkNwilliam/certificates/main/Other/Makerere-University-Solar-Biogas-Certificate.png" alt="Makerere Solar &amp; Biogas Certificate" width="32%" /></a>
 </p>
 
 ---
